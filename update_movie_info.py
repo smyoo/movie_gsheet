@@ -87,8 +87,6 @@ for page in range(1, pages+1):
             ]
         )
 
-
-
     #pp.pprint(movie_list)
     worksheet.append_rows(movie_list)
     print(">>> [INFO] Upload Completed ... {0}/{1}\n".format(tot_items, tot_cnt))
