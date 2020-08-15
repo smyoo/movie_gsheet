@@ -26,5 +26,18 @@ movie_list = result['movieListResult']['movieList']
 print(len(movie_list))
 print(">>> 총 영화수 : {0}".format(result['movieListResult']['totCnt']))
 
-safdf
 
+asfsaf
+async def af
+as
+fd
+(parameter_list):
+    pass
+
+
+
+async def 
+asfdaf
+
+(parameter_list):
+    pass
