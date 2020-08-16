@@ -1,12 +1,6 @@
-import urllib.request as ul
-import json
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-import time
-import math
-import pprint
 import movie_data as mv
-pp = pprint.PrettyPrinter(indent=4)
+import math
+
 
 ############################################################################
 # 영화관입장권통합전산망 오픈API 테스트
@@ -77,6 +71,7 @@ for page in range(1, pages+1):
     
     # 구글시트에 저장
     worksheet.append_rows(movie_list)
+    # DB에 저장ㅋㅁㄴㅋ
     mv.insert_into_table(sql_list)
     print(">>> [INFO] Upload Completed ... {0}/{1}\n".format(tot_items, tot_cnt))
 

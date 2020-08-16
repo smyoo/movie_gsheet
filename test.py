@@ -60,7 +60,7 @@ print(type(cell_data))
 print(cell_data)
 print('--------------------------\n')
 
-# 읽기 - 범위
+# 읽기 - 행
 row_data = worksheet.row_values(3)
 print(type(row_data))
 print(row_data)

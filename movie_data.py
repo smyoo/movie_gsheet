@@ -84,7 +84,5 @@ def insert_into_table(sql_list):
         cur.execute(s)
     conn.commit()
     conn.close()
-    
-if __name__ == "__main__":
-    data = "aaa"
-    save_to_mysql(data)
+
+
