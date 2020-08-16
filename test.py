@@ -2,8 +2,15 @@ import urllib.request as ul
 import json
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import configparser
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
+
+config = configparser.ConfigParser()
+config.read('../config.ini')
+
+api_key = config['api_key']
+
 
 ############################################################################
 # 영화관입장권통합전산망 오픈API 테스트
